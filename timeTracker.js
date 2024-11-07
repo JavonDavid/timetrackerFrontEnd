@@ -1,7 +1,13 @@
 function returnText() {
     let username = document.getElementById(`username`).value;
     let password = document.getElementById(`password`).value;
-    alert(username);
-    alert(password);
-
+    if (username == ``) {
+        alert(`Please enter a username`)
+    }
+    if (password == ``) {
+        alert(`Please enter your password`)
+    }
+    if (condition) {
+        
+    }
 }
