@@ -4,17 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="timeTracker.css">
+    <link rel="stylesheet" href="/timeTracker.css">
     <title>Document</title>
+    <script src="/timeTracker.js"></script>
 </head>
 
 <body>
-    <form>
+    <form onsubmit="returnText()">
         <input type="text" placeholder="username" id="username" autocomplete="username"> <br>
         <input type="password" placeholder="password" id="password" autocomplete="new-password"><br>
-        <button type="submit" id="submit" onsubmit="returnText()">Submit</button>
+        <button type="submit" id="submit">Submit</button>
     </form>
 </body>
-<script src="timeTracker.js" type="module"></script>
-
 </html>
