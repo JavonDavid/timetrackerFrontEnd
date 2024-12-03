@@ -1,7 +1,8 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20rem;
+#registerForm{
+/*allows me to manipulate the contents. spaceing, the order the content is and the alignment  */
+display: flex;
+/*lets me control the space between the content */
+justify-content: center;
+/* align the items in the center of the page */
+align-items: center;
 }
-
