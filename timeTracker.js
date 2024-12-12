@@ -25,7 +25,7 @@ async function getUsersById(id){
 async function updateUser(id){
   try {
     const updateUser = {email:`javon1234@gmail.com`, password:`notsosmallman1234`};/* changes the users email and password */
-    const responce = await axios.put(`http://localhost:3000/user/:id`,updateUser);/*  updating the email and password */
+    const responce = await axios.put(`http://localhost:3001/user/:id`,updateUser);/*  updating the email and password */
     console.log(`User has been updated`, responce.data); /* this is console logging the responce withh the data */
   } catch (error) {
     console.error('Error updating user',error.responce? error.responce.data : error.massage);/* this is sending the error.responce.data to error.massage that will be log in the console */
