@@ -6,28 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/timeTracker.css">
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="/dist/bundle.js"></script>
 </head>
 
 <body>
-    <!-- this is displaying the header for my register page with the word Login at the top if the page -->
-    <h1 id="h1">Login</h1>
-    <!-- holds my email,name,password and submitbutton in a form tag so they are all in a form like format for registering.-->
-    <form id="loginForm">
-        <!-- this is displaying where the user should put there email.-->
-        <label for="email">Email</label>
-        <!-- this is displaying where the user should put there email for when the sign up.-->
-        <input type="email" name="email" id="email" placeholder="example@gmail.com" autocomplete="email"><br>
-        <!-- this is displaying the word password next to the textbox where they should enter there password.-->
-        <label for="password">password</label>
-        <!-- this is displaying the textbox where they will create their password for there account.-->
-        <input type="password" placeholder="password" id="password" autocomplete="current-password" required><br>
-        <!--this is displaying the submit button for when there user fills out the register form-->
-        <button type="submit" id="submit">Submit</button>
-        <!-- shows all the users-->
-        <button onclick="fecthUsers()">Get all users</button>
-        <!-- seeing if the password and emails are the same -->
-         <button onclick="returnText()">Correct email</button>
+    <h1 id="h1">Login</h1><!-- this is displaying the header for my register page with the word Login at the top if the page -->
+    <form id="loginForm"><!-- holds my email,name,password and submitbutton in a form tag so they are all in a form like format for registering.-->
+        <label for="email">Email</label><!-- this is displaying where the user should put there email.-->
+        <input type="email" name="email" id="email" placeholder="example@gmail.com" autocomplete="email"><br><!-- this is displaying where the user should put there email for when the sign up.-->
+        <label for="password">password</label><!-- this is displaying the word password next to the textbox where they should enter there password.-->
+        <input type="password" placeholder="password" id="password" autocomplete="current-password" required><br> <!-- this is displaying the textbox where they will input their password for there account.-->
+        <button type="submit" id="submit">Submit</button><!--this is displaying the submit button for when there user fills out the register form-->
+        <button onclick="fecthUsers()">Get all users</button><!-- shows all the users-->
+         <button >Current Time</button>
     </form>
 </body>
 
