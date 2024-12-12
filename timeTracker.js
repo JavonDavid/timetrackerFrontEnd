@@ -1,6 +1,6 @@
 const axios = require("axios");/* this is getting the axios libriary  */
 const moment = require("moment");/* this is getting moments libriart */
-defaults.baseURL = "http://localhost:3000/users";
+defaults.baseURL = "http://localhost:3001/users";
 
 /* fetching the  users and logging and log them in the console if data has been fetched or a error has happend*/
 async function fecthUsers() {
